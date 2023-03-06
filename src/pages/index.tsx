@@ -1,5 +1,20 @@
 import Head from 'next/head';
+import { Card } from '@mui/joy';
 import styles from '@/styles/Home.module.css';
+import styled from '@emotion/styled';
+
+const Initials = styled.div`
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  color: white;
+  top: 35px;
+  left: 35px;
+  width: 150px;
+  height: 150px;
+`;
 
 export default function Home() {
   return (
@@ -11,7 +26,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <h1>Hello, world!</h1>
+        <Card
+          sx={{
+            width: 628,
+            height: 527,
+            background: 'radial-gradient(300px circle at 110px 110px, transparent 25%, white 25%)',
+          }}
+        >
+          <Initials>AD</Initials>
+        </Card>
       </main>
     </>
   );

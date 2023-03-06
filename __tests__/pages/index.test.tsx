@@ -3,10 +3,10 @@ import Home from '../../src/pages'
 import '@testing-library/jest-dom'
 
 describe('Page: Home', () => {
-  it('displays "hello, world"', () => {
+  it('displays initials', () => {
     render(<Home />)
 
-    const blurb = screen.getByText('Hello, world!')
+    const blurb = screen.getByText('AD')
 
     expect(blurb).toBeInTheDocument()
   })

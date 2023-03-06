@@ -5,9 +5,17 @@ exports[`renders homepage unchanged 1`] = `
   <main
     class="main"
   >
-    <h1>
-      Hello, world!
-    </h1>
+    <div
+      class="MuiCard-root MuiCard-vertical MuiCard-variantPlain MuiCard-colorNeutral MuiCard-sizeMd css-g7m8o1-JoyCard-root"
+    >
+      <div
+        class="css-45able"
+        data-first-child=""
+        data-last-child=""
+      >
+        AD
+      </div>
+    </div>
   </main>
 </div>
 `;
