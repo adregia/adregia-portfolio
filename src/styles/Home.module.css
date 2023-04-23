@@ -15,3 +15,24 @@
     #fcb045
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.sections {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  align-items: center;
+}
+
+
+.card {
+  border-radius: 30px;
+  width: 628px;
+  height: 527px;
+  background: radial-gradient(300px circle at 110px 110px, transparent 23%, rgba(0, 0, 0, 0.25) 25%, white 25%);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+
+.cardDark {
+  background: radial-gradient(300px circle at 110px 110px, transparent 23%, rgba(255, 255, 255, 0.25) 25%, black 25%);
+}

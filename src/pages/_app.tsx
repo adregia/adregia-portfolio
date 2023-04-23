@@ -9,7 +9,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <CssVarsProvider>
         <style jsx global>{`
           * {
-            font-family: 'futura-pt', sans-serif !important;
+            font-family: 'futura', sans-serif !important;
           }
         `}</style>
         <Component {...pageProps} />

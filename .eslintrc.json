@@ -1,8 +1,13 @@
 {
-  "extends": ["next/core-web-vitals", "prettier"],
+  "extends": ["next/core-web-vitals", "plugin:prettier/recommended"],
   "rules": {
     "import/no-unused-modules": "error",
     "no-unused-vars": "error",
-    "react/require-default-props": "error"
+    "react/require-default-props": [
+      2,
+      {
+        "functions": "defaultArguments"
+      }
+    ]
   }
 }

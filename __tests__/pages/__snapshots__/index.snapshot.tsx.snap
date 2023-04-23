@@ -6,15 +6,317 @@ exports[`renders homepage unchanged 1`] = `
     class="main"
   >
     <div
-      class="MuiCard-root MuiCard-vertical MuiCard-variantPlain MuiCard-colorNeutral MuiCard-sizeMd css-g7m8o1-JoyCard-root"
+      class="MuiCard-root MuiCard-vertical MuiCard-variantPlain MuiCard-colorNeutral MuiCard-sizeMd card css-zqmsxh-JoyCard-root"
     >
       <div
-        class="css-45able"
+        class="sections"
         data-first-child=""
-        data-last-child=""
       >
-        AD
+        <section
+          class="css-13n7l8f"
+        >
+          <div
+            class="css-ocxynz"
+          >
+            AD
+          </div>
+          <div
+            class="css-1r6g51n"
+          >
+            <a
+              href="https://www.linkedin.com/in/ahmed-dregia/"
+              target="_blank"
+            >
+              <button
+                class="MuiIconButton-root MuiIconButton-variantPlain MuiIconButton-colorNeutral MuiIconButton-sizeSm css-1j0ix75-JoyIconButton-root"
+                type="button"
+              >
+                <img
+                  alt="LinkedIn"
+                  data-nimg="1"
+                  decoding="async"
+                  height="20"
+                  src="/resources/icons/linkedin.svg"
+                  style="color: transparent;"
+                  width="20"
+                />
+              </button>
+            </a>
+            <button
+              class="MuiIconButton-root MuiIconButton-variantPlain MuiIconButton-colorNeutral MuiIconButton-sizeSm css-1j0ix75-JoyIconButton-root"
+              type="button"
+            >
+              <img
+                alt="Email"
+                data-nimg="1"
+                decoding="async"
+                height="20"
+                src="/resources/icons/email.svg"
+                style="color: transparent;"
+                width="20"
+              />
+            </button>
+            <button
+              class="MuiIconButton-root MuiIconButton-variantPlain MuiIconButton-colorNeutral MuiIconButton-sizeSm css-1j0ix75-JoyIconButton-root"
+              type="button"
+            >
+              <img
+                alt="Resumé"
+                data-nimg="1"
+                decoding="async"
+                height="20"
+                src="/resources/icons/document.svg"
+                style="color: transparent;"
+                width="20"
+              />
+            </button>
+            <button
+              class="MuiIconButton-root MuiIconButton-variantPlain MuiIconButton-colorNeutral MuiIconButton-sizeSm css-1j0ix75-JoyIconButton-root"
+              type="button"
+            >
+              <img
+                alt="Phone"
+                data-nimg="1"
+                decoding="async"
+                height="20"
+                src="/resources/icons/phone.svg"
+                style="color: transparent;"
+                width="20"
+              />
+            </button>
+          </div>
+        </section>
+        <section
+          class="css-18zxl7n"
+        >
+          <div
+            class="css-1vki4m"
+          >
+            <div
+              class="css-1bie8f"
+            >
+              <div
+                class="css-1iyoj2o"
+              >
+                <span
+                  class="css-1nsfrpq"
+                >
+                  Rivian
+                </span>
+                <span
+                  class="css-qm3h0l"
+                >
+                  Supply Chain Portal (Web, AWS)
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="css-1vki4m"
+          >
+            <div
+              class="css-1bie8f"
+            >
+              <div
+                class="css-1iyoj2o"
+              >
+                <span
+                  class="css-1nsfrpq"
+                >
+                  Toyota Racing Development
+                </span>
+                <span
+                  class="css-qm3h0l"
+                >
+                  Data Aggregation/Race Prediction (Web, AWS)
+                </span>
+              </div>
+              <a
+                href="https://aws.amazon.com/solutions/case-studies/toyota-racing-development/"
+                target="_blank"
+              >
+                <button
+                  class="MuiIconButton-root MuiIconButton-variantPlain MuiIconButton-colorNeutral MuiIconButton-sizeSm css-1j0ix75-JoyIconButton-root"
+                  type="button"
+                >
+                  <img
+                    alt="Link"
+                    data-nimg="1"
+                    decoding="async"
+                    height="16"
+                    src="/resources/icons/link.svg"
+                    style="color: transparent;"
+                    width="16"
+                  />
+                </button>
+              </a>
+            </div>
+          </div>
+          <div
+            class="css-1vki4m"
+          >
+            <div
+              class="css-1bie8f"
+            >
+              <div
+                class="css-1iyoj2o"
+              >
+                <span
+                  class="css-1nsfrpq"
+                >
+                  Yapi
+                </span>
+                <span
+                  class="css-qm3h0l"
+                >
+                  Online Practice Portal, Internal Tools (Web)
+                </span>
+              </div>
+              <a
+                href="https://yapiapp.com/"
+                target="_blank"
+              >
+                <button
+                  class="MuiIconButton-root MuiIconButton-variantPlain MuiIconButton-colorNeutral MuiIconButton-sizeSm css-1j0ix75-JoyIconButton-root"
+                  type="button"
+                >
+                  <img
+                    alt="Link"
+                    data-nimg="1"
+                    decoding="async"
+                    height="16"
+                    src="/resources/icons/link.svg"
+                    style="color: transparent;"
+                    width="16"
+                  />
+                </button>
+              </a>
+            </div>
+          </div>
+          <div
+            class="css-1vki4m"
+          >
+            <div
+              class="css-1bie8f"
+            >
+              <div
+                class="css-1iyoj2o"
+              >
+                <span
+                  class="css-1nsfrpq"
+                >
+                  FitRecruiters (Personal Project)
+                </span>
+                <span
+                  class="css-qm3h0l"
+                >
+                  Jobs Website for Fitness Professionals (Web, Firebase)
+                </span>
+              </div>
+              <a
+                href="/fit-recruiters"
+                target="_blank"
+              >
+                <button
+                  class="MuiIconButton-root MuiIconButton-variantPlain MuiIconButton-colorNeutral MuiIconButton-sizeSm css-1j0ix75-JoyIconButton-root"
+                  type="button"
+                >
+                  <img
+                    alt="Info"
+                    data-nimg="1"
+                    decoding="async"
+                    height="16"
+                    src="/resources/icons/info.svg"
+                    style="color: transparent;"
+                    width="16"
+                  />
+                </button>
+              </a>
+            </div>
+          </div>
+          <div
+            class="css-1vki4m"
+          >
+            <div
+              class="css-1bie8f"
+            >
+              <div
+                class="css-1iyoj2o"
+              >
+                <span
+                  class="css-1nsfrpq"
+                >
+                  Hoist Powertools (Personal Project)
+                </span>
+                <span
+                  class="css-qm3h0l"
+                >
+                  Utilities and Resources for Powerlifters (iOS, Firebase)
+                </span>
+              </div>
+              <a
+                href="/hoist-powertools"
+                target="_blank"
+              >
+                <button
+                  class="MuiIconButton-root MuiIconButton-variantPlain MuiIconButton-colorNeutral MuiIconButton-sizeSm css-1j0ix75-JoyIconButton-root"
+                  type="button"
+                >
+                  <img
+                    alt="Info"
+                    data-nimg="1"
+                    decoding="async"
+                    height="16"
+                    src="/resources/icons/info.svg"
+                    style="color: transparent;"
+                    width="16"
+                  />
+                </button>
+              </a>
+            </div>
+          </div>
+        </section>
       </div>
+      <footer
+        class="css-16o0tf6"
+      >
+        <img
+          alt="React"
+          data-nimg="1"
+          decoding="async"
+          height="32"
+          src="/resources/react.svg"
+          style="color: transparent;"
+          width="32"
+        />
+        <img
+          alt="Python"
+          data-nimg="1"
+          decoding="async"
+          height="32"
+          src="/resources/python.svg"
+          style="color: transparent;"
+          width="32"
+        />
+        <img
+          alt="JavaScript"
+          data-nimg="1"
+          decoding="async"
+          height="32"
+          src="/resources/js.svg"
+          style="color: transparent;"
+          width="32"
+        />
+        <img
+          alt="AWS"
+          data-nimg="1"
+          decoding="async"
+          height="32"
+          src="/resources/aws.svg"
+          style="color: transparent;"
+          width="32"
+        />
+      </footer>
     </div>
   </main>
 </div>

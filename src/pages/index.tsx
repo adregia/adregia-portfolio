@@ -1,22 +1,20 @@
 import Head from 'next/head';
 import { Card } from '@mui/joy';
-import styles from '@/styles/Home.module.css';
-import styled from '@emotion/styled';
 
-const Initials = styled.div`
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 60px;
-  color: white;
-  top: 35px;
-  left: 35px;
-  width: 150px;
-  height: 150px;
-`;
+import ContactSection from '@/components/ContactSection';
+import Footer from '@/components/Footer';
+import ItemSection from '@/components/ItemSection';
+import styles from '@/styles/Home.module.css';
 
 export default function Home() {
+  // TODO: Implement dark/light mode switching.
+  // const { mode, systemMode } = useColorScheme();
+
+  // const isDarkMode = mode === 'dark' || (mode === 'system' && systemMode === 'dark');
+  // const cardStyles = [styles.card, isDarkMode ? styles.cardDark : ''].join(' ');
+
+  const cardStyles = styles.card;
+
   return (
     <>
       <Head>
@@ -26,14 +24,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <Card
-          sx={{
-            width: 628,
-            height: 527,
-            background: 'radial-gradient(300px circle at 110px 110px, transparent 25%, white 25%)',
-          }}
-        >
-          <Initials>AD</Initials>
+        <Card className={cardStyles}>
+          <div className={styles.sections}>
+            <ContactSection />
+            <ItemSection />
+          </div>
+          <Footer />
         </Card>
       </main>
     </>
