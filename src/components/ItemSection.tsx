@@ -8,6 +8,12 @@ const _ItemSection = styled.section`
   gap: 30px;
   margin-left: 60px;
   flex: 1;
+
+  @media only screen and (orientation: portrait) and (max-width: 900px) {
+    margin-left: 0;
+    width: 100%;
+    margin-top: 60px;
+  }
 `;
 
 export default function ItemSection() {

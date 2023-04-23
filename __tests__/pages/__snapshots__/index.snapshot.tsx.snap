@@ -13,7 +13,7 @@ exports[`renders homepage unchanged 1`] = `
         data-first-child=""
       >
         <section
-          class="css-13n7l8f"
+          class="css-1pt1kn1"
         >
           <div
             class="css-ocxynz"
@@ -87,7 +87,7 @@ exports[`renders homepage unchanged 1`] = `
           </div>
         </section>
         <section
-          class="css-18zxl7n"
+          class="css-31iesr"
         >
           <div
             class="css-1vki4m"
@@ -278,7 +278,7 @@ exports[`renders homepage unchanged 1`] = `
         </section>
       </div>
       <footer
-        class="css-16o0tf6"
+        class="css-d0ckhb"
       >
         <img
           alt="React"

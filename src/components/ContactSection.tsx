@@ -32,6 +32,16 @@ const _ContactSection = styled.section`
   align-items: center;
   height: 100%;
   gap: 10px;
+
+  @media only screen and (orientation: portrait) and (max-width: 900px) {
+    margin-top: 19px;
+    height: auto;
+  }
+
+  @media only screen and (orientation: landscape) and (max-width: 900px) {
+    margin-top: 19px;
+    height: auto;
+  }
 `;
 
 export default function ContactSection() {

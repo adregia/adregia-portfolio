@@ -10,6 +10,13 @@ const FooterBase = styled.footer`
   margin-left: 15px;
   margin-bottom: 15px;
   gap: 9px;
+
+  @media only screen and (orientation: portrait) and (max-width: 900px) {
+    top: 90px;
+    right: 30px;
+    left: auto;
+    bottom: auto;
+  }
 `;
 
 export function Footer() {
