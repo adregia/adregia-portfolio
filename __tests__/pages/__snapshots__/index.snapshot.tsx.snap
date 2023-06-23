@@ -3,10 +3,10 @@
 exports[`renders homepage unchanged 1`] = `
 <div>
   <main
-    class="main"
+    class="css-9vex5s"
   >
     <div
-      class="MuiCard-root MuiCard-vertical MuiCard-variantPlain MuiCard-colorNeutral MuiCard-sizeMd card css-zqmsxh-JoyCard-root"
+      class="MuiCard-root MuiCard-vertical MuiCard-variantPlain MuiCard-colorNeutral MuiCard-sizeMd css-2omb4e-JoyCard-root"
     >
       <div
         class="sections"
@@ -215,7 +215,7 @@ exports[`renders homepage unchanged 1`] = `
               </div>
               <a
                 href="/fit-recruiters"
-                target="_blank"
+                target=""
               >
                 <button
                   class="MuiIconButton-root MuiIconButton-variantPlain MuiIconButton-colorNeutral MuiIconButton-sizeSm css-1j0ix75-JoyIconButton-root"
@@ -256,7 +256,7 @@ exports[`renders homepage unchanged 1`] = `
               </div>
               <a
                 href="/hoist-powertools"
-                target="_blank"
+                target=""
               >
                 <button
                   class="MuiIconButton-root MuiIconButton-variantPlain MuiIconButton-colorNeutral MuiIconButton-sizeSm css-1j0ix75-JoyIconButton-root"

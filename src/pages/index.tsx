@@ -1,20 +1,12 @@
 import Head from 'next/head';
-import { Card } from '@mui/joy';
 
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
 import ItemSection from '@/components/ItemSection';
 import styles from '@/styles/Home.module.css';
+import Layout from '@/components/Layout';
 
 export default function Home() {
-  // TODO: Implement dark/light mode switching.
-  // const { mode, systemMode } = useColorScheme();
-
-  // const isDarkMode = mode === 'dark' || (mode === 'system' && systemMode === 'dark');
-  // const cardStyles = [styles.card, isDarkMode ? styles.cardDark : ''].join(' ');
-
-  const cardStyles = styles.card;
-
   return (
     <>
       <Head>
@@ -23,15 +15,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        <Card className={cardStyles}>
-          <div className={styles.sections}>
-            <ContactSection />
-            <ItemSection />
-          </div>
-          <Footer />
-        </Card>
-      </main>
+      <Layout isHomePage>
+        <div className={styles.sections}>
+          <ContactSection />
+          <ItemSection />
+        </div>
+        <Footer />
+      </Layout>
     </>
   );
 }

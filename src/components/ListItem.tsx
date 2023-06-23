@@ -52,7 +52,7 @@ const ListItem = ({ title, subtitle = '', link = '' }: ListItemProps) => {
           <Subtitle>{subtitle}</Subtitle>
         </TextContainer>
         {link && (
-          <Link href={link} target="_blank">
+          <Link href={link} target={isExternalLink ? '_blank' : ''}>
             <IconButton variant="plain" size="sm" color="neutral">
               <Image priority src={imageSrc} width={16} height={16} alt={imageAlt} />
             </IconButton>
