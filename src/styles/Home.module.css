@@ -1,20 +1,14 @@
 .sections {
   display: flex;
-  flex-direction: row;
   flex: 1;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
 }
 
-@media only screen and (orientation: portrait) and (max-width: 900px) {
-  .sections {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0;
-  }
-}
-
-@media only screen and (orientation: landscape) and (max-width: 900px) {
+@media only screen and (orientation: landscape) and (max-width: 600px) {
   .sections {
     align-items: flex-start;
+    flex-direction: row;
   }
 }

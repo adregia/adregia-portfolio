@@ -3,7 +3,7 @@ import { CssVarsProvider } from '@mui/joy';
 
 import type { ReactNode } from 'react';
 
-import Project from '../../src/pages/project';
+import Project from '../../../src/pages/project/[name]';
 import '@testing-library/jest-dom';
 
 // `CssVarsProvider` invokes this method, so we need to mock it.
@@ -20,6 +20,12 @@ Object.defineProperty(window, 'matchMedia', {
     dispatchEvent: jest.fn(),
   })),
 });
+
+const useRouter = jest.spyOn(require('next/router'), 'useRouter');
+
+useRouter.mockImplementation(() => ({
+  asPath: '/project/fit-recruiters',
+}));
 
 const wrapper = ({ children }: { children: ReactNode }) => {
   return <CssVarsProvider>{children}</CssVarsProvider>;

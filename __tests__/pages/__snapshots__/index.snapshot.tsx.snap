@@ -3,20 +3,20 @@
 exports[`renders homepage unchanged 1`] = `
 <div>
   <main
-    class="css-9vex5s"
+    class="css-1pykotg"
   >
     <div
-      class="MuiCard-root MuiCard-vertical MuiCard-variantPlain MuiCard-colorNeutral MuiCard-sizeMd css-2omb4e-JoyCard-root"
+      class="MuiCard-root MuiCard-vertical MuiCard-variantPlain MuiCard-colorNeutral MuiCard-sizeMd css-3rvmj5-JoyCard-root"
     >
       <div
         class="sections"
         data-first-child=""
       >
         <section
-          class="css-1pt1kn1"
+          class="css-1ozipuz"
         >
           <div
-            class="css-ocxynz"
+            class="css-17dy2de"
           >
             AD
           </div>
@@ -87,10 +87,10 @@ exports[`renders homepage unchanged 1`] = `
           </div>
         </section>
         <section
-          class="css-31iesr"
+          class="css-whl98g"
         >
           <div
-            class="css-1vki4m"
+            class="css-wnmwa"
           >
             <div
               class="css-1bie8f"
@@ -106,13 +106,13 @@ exports[`renders homepage unchanged 1`] = `
                 <span
                   class="css-qm3h0l"
                 >
-                  Supply Chain Portal (Web, AWS)
+                  Basecamp (Supply Chain Portal) (Web, AWS)
                 </span>
               </div>
             </div>
           </div>
           <div
-            class="css-1vki4m"
+            class="css-wnmwa"
           >
             <div
               class="css-1bie8f"
@@ -153,7 +153,7 @@ exports[`renders homepage unchanged 1`] = `
             </div>
           </div>
           <div
-            class="css-1vki4m"
+            class="css-wnmwa"
           >
             <div
               class="css-1bie8f"
@@ -194,7 +194,7 @@ exports[`renders homepage unchanged 1`] = `
             </div>
           </div>
           <div
-            class="css-1vki4m"
+            class="css-wnmwa"
           >
             <div
               class="css-1bie8f"
@@ -214,7 +214,7 @@ exports[`renders homepage unchanged 1`] = `
                 </span>
               </div>
               <a
-                href="/fit-recruiters"
+                href="/project/fit-recruiters"
                 target=""
               >
                 <button
@@ -235,7 +235,7 @@ exports[`renders homepage unchanged 1`] = `
             </div>
           </div>
           <div
-            class="css-1vki4m"
+            class="css-wnmwa"
           >
             <div
               class="css-1bie8f"
@@ -255,7 +255,7 @@ exports[`renders homepage unchanged 1`] = `
                 </span>
               </div>
               <a
-                href="/hoist-powertools"
+                href="/project/hoist-powertools"
                 target=""
               >
                 <button
@@ -278,7 +278,7 @@ exports[`renders homepage unchanged 1`] = `
         </section>
       </div>
       <footer
-        class="css-d0ckhb"
+        class="css-1xrjhk4"
       >
         <img
           alt="React"

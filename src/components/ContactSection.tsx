@@ -13,7 +13,15 @@ const Initials = styled.div`
   background: transparent;
   font-size: 48px;
   font-weight: 400;
-  color: white;
+  background: -webkit-linear-gradient(to right, #833ab4, #fd1d1d, #fcb045); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #833ab4,
+    #fd1d1d,
+    #fcb045
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 `;
 
 export const IconContainer = styled.div`
@@ -32,16 +40,8 @@ const _ContactSection = styled.section`
   align-items: center;
   height: 100%;
   gap: 10px;
-
-  @media only screen and (orientation: portrait) and (max-width: 900px) {
-    margin-top: 19px;
-    height: auto;
-  }
-
-  @media only screen and (orientation: landscape) and (max-width: 900px) {
-    margin-top: 19px;
-    height: auto;
-  }
+  margin-top: 19px;
+  height: auto;
 `;
 
 export default function ContactSection() {

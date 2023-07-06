@@ -10,7 +10,7 @@ export interface ListItemProps {
 }
 
 const ListItemContainer = styled.div`
-  border-bottom: 1px solid #e3e3e3;
+  border-bottom: 1px solid silver;
   width: 100%;
 `;
 

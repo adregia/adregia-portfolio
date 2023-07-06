@@ -30,7 +30,7 @@ const ImageContainer = styled.div`
   border-radius: 10px;
 `;
 
-export function Thumbnail() {
+export function Thumbnail({ src = '/resources/images/placeholder.webp' }) {
   const [open, setOpen] = useState(false);
 
   const handleClose = () => {
@@ -52,17 +52,12 @@ export function Thumbnail() {
             </IconButton>
           </div>
           <ImageContainer>
-            <Image
-              style={{ objectFit: 'contain' }}
-              fill
-              src="/resources/images/fit-recruiters-2.png"
-              alt="FitRecruiters"
-            />
+            <Image style={{ objectFit: 'contain' }} fill src={src} alt="FitRecruiters" />
           </ImageContainer>
         </Card>
       </Modal>
       <ThumbnailBase data-testid="thumbnail" onClick={() => setOpen(true)}>
-        <Image style={{ objectFit: 'cover' }} fill src="/resources/images/fit-recruiters-2.png" alt="FitRecruiters" />
+        <Image style={{ objectFit: 'cover' }} fill src={src} alt="FitRecruiters" />
       </ThumbnailBase>
     </>
   );

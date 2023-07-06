@@ -6,20 +6,20 @@ const _ItemSection = styled.section`
   display: flex;
   flex-direction: column;
   gap: 30px;
-  margin-left: 60px;
+  margin-left: 0;
+  width: 100%;
+  margin-top: 60px;
   flex: 1;
 
-  @media only screen and (orientation: portrait) and (max-width: 900px) {
-    margin-left: 0;
-    width: 100%;
-    margin-top: 60px;
+  @media only screen and (orientation: landscape) and (max-width: 600px) {
+    margin-top: 20px;
   }
 `;
 
 export default function ItemSection() {
   return (
     <_ItemSection>
-      <ListItem title="Rivian" subtitle="Supply Chain Portal (Web, AWS)" />
+      <ListItem title="Rivian" subtitle="Basecamp (Supply Chain Portal) (Web, AWS)" />
       <ListItem
         title="Toyota Racing Development"
         subtitle="Data Aggregation/Race Prediction (Web, AWS)"
@@ -29,12 +29,12 @@ export default function ItemSection() {
       <ListItem
         title="FitRecruiters (Personal Project)"
         subtitle="Jobs Website for Fitness Professionals (Web, Firebase)"
-        link="/fit-recruiters"
+        link="/project/fit-recruiters"
       />
       <ListItem
         title="Hoist Powertools (Personal Project)"
         subtitle="Utilities and Resources for Powerlifters (iOS, Firebase)"
-        link="/hoist-powertools"
+        link="/project/hoist-powertools"
       />
     </_ItemSection>
   );

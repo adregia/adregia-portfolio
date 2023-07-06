@@ -3,19 +3,21 @@ import Image from 'next/image';
 
 const FooterBase = styled.footer`
   position: absolute;
-  bottom: 0;
-  left: 0;
   display: flex;
   flex-direction: row;
   margin-left: 15px;
   margin-bottom: 15px;
   gap: 9px;
+  top: 90px;
+  right: 30px;
+  left: auto;
+  bottom: auto;
 
-  @media only screen and (orientation: portrait) and (max-width: 900px) {
-    top: 90px;
-    right: 30px;
-    left: auto;
-    bottom: auto;
+  @media only screen and (orientation: landscape) and (max-width: 600px) {
+    bottom: 0;
+    left: 0;
+    top: auto;
+    right: 0;
   }
 `;
 
