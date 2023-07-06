@@ -1,4 +1,4 @@
-import '@/styles/globals.css';
+import '@/globals.css';
 
 import { CssVarsProvider } from '@mui/joy/styles';
 import type { AppProps } from 'next/app';

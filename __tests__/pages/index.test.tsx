@@ -3,7 +3,7 @@ import { CssVarsProvider } from '@mui/joy';
 
 import type { ReactNode } from 'react';
 
-import Home from '../../src/pages';
+import Home from '../../src/pages/index';
 import '@testing-library/jest-dom';
 
 // `CssVarsProvider` invokes this method, so we need to mock it.

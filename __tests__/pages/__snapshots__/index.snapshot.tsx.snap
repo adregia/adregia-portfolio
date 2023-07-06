@@ -3,321 +3,167 @@
 exports[`renders homepage unchanged 1`] = `
 <div>
   <main
-    class="css-1pykotg"
+    class="css-1m17p3h"
   >
     <div
-      class="MuiCard-root MuiCard-vertical MuiCard-variantPlain MuiCard-colorNeutral MuiCard-sizeMd css-3rvmj5-JoyCard-root"
+      class="css-x6yts2"
     >
-      <div
-        class="sections"
-        data-first-child=""
-      >
-        <section
-          class="css-1ozipuz"
-        >
-          <div
-            class="css-17dy2de"
-          >
-            AD
-          </div>
-          <div
-            class="css-1r6g51n"
-          >
-            <a
-              href="https://www.linkedin.com/in/ahmed-dregia/"
-              target="_blank"
-            >
-              <button
-                class="MuiIconButton-root MuiIconButton-variantPlain MuiIconButton-colorNeutral MuiIconButton-sizeSm css-1j0ix75-JoyIconButton-root"
-                type="button"
-              >
-                <img
-                  alt="LinkedIn"
-                  data-nimg="1"
-                  decoding="async"
-                  height="20"
-                  src="/resources/icons/linkedin.svg"
-                  style="color: transparent;"
-                  width="20"
-                />
-              </button>
-            </a>
-            <button
-              class="MuiIconButton-root MuiIconButton-variantPlain MuiIconButton-colorNeutral MuiIconButton-sizeSm css-1j0ix75-JoyIconButton-root"
-              type="button"
-            >
-              <img
-                alt="Email"
-                data-nimg="1"
-                decoding="async"
-                height="20"
-                src="/resources/icons/email.svg"
-                style="color: transparent;"
-                width="20"
-              />
-            </button>
-            <button
-              class="MuiIconButton-root MuiIconButton-variantPlain MuiIconButton-colorNeutral MuiIconButton-sizeSm css-1j0ix75-JoyIconButton-root"
-              type="button"
-            >
-              <img
-                alt="Resumé"
-                data-nimg="1"
-                decoding="async"
-                height="20"
-                src="/resources/icons/document.svg"
-                style="color: transparent;"
-                width="20"
-              />
-            </button>
-            <button
-              class="MuiIconButton-root MuiIconButton-variantPlain MuiIconButton-colorNeutral MuiIconButton-sizeSm css-1j0ix75-JoyIconButton-root"
-              type="button"
-            >
-              <img
-                alt="Phone"
-                data-nimg="1"
-                decoding="async"
-                height="20"
-                src="/resources/icons/phone.svg"
-                style="color: transparent;"
-                width="20"
-              />
-            </button>
-          </div>
-        </section>
-        <section
-          class="css-whl98g"
-        >
-          <div
-            class="css-wnmwa"
-          >
-            <div
-              class="css-1bie8f"
-            >
-              <div
-                class="css-1iyoj2o"
-              >
-                <span
-                  class="css-1nsfrpq"
-                >
-                  Rivian
-                </span>
-                <span
-                  class="css-qm3h0l"
-                >
-                  Basecamp (Supply Chain Portal) (Web, AWS)
-                </span>
-              </div>
-            </div>
-          </div>
-          <div
-            class="css-wnmwa"
-          >
-            <div
-              class="css-1bie8f"
-            >
-              <div
-                class="css-1iyoj2o"
-              >
-                <span
-                  class="css-1nsfrpq"
-                >
-                  Toyota Racing Development
-                </span>
-                <span
-                  class="css-qm3h0l"
-                >
-                  Data Aggregation/Race Prediction (Web, AWS)
-                </span>
-              </div>
-              <a
-                href="https://aws.amazon.com/solutions/case-studies/toyota-racing-development/"
-                target="_blank"
-              >
-                <button
-                  class="MuiIconButton-root MuiIconButton-variantPlain MuiIconButton-colorNeutral MuiIconButton-sizeSm css-1j0ix75-JoyIconButton-root"
-                  type="button"
-                >
-                  <img
-                    alt="Link"
-                    data-nimg="1"
-                    decoding="async"
-                    height="16"
-                    src="/resources/icons/link.svg"
-                    style="color: transparent;"
-                    width="16"
-                  />
-                </button>
-              </a>
-            </div>
-          </div>
-          <div
-            class="css-wnmwa"
-          >
-            <div
-              class="css-1bie8f"
-            >
-              <div
-                class="css-1iyoj2o"
-              >
-                <span
-                  class="css-1nsfrpq"
-                >
-                  Yapi
-                </span>
-                <span
-                  class="css-qm3h0l"
-                >
-                  Online Practice Portal, Internal Tools (Web)
-                </span>
-              </div>
-              <a
-                href="https://yapiapp.com/"
-                target="_blank"
-              >
-                <button
-                  class="MuiIconButton-root MuiIconButton-variantPlain MuiIconButton-colorNeutral MuiIconButton-sizeSm css-1j0ix75-JoyIconButton-root"
-                  type="button"
-                >
-                  <img
-                    alt="Link"
-                    data-nimg="1"
-                    decoding="async"
-                    height="16"
-                    src="/resources/icons/link.svg"
-                    style="color: transparent;"
-                    width="16"
-                  />
-                </button>
-              </a>
-            </div>
-          </div>
-          <div
-            class="css-wnmwa"
-          >
-            <div
-              class="css-1bie8f"
-            >
-              <div
-                class="css-1iyoj2o"
-              >
-                <span
-                  class="css-1nsfrpq"
-                >
-                  FitRecruiters (Personal Project)
-                </span>
-                <span
-                  class="css-qm3h0l"
-                >
-                  Jobs Website for Fitness Professionals (Web, Firebase)
-                </span>
-              </div>
-              <a
-                href="/project/fit-recruiters"
-                target=""
-              >
-                <button
-                  class="MuiIconButton-root MuiIconButton-variantPlain MuiIconButton-colorNeutral MuiIconButton-sizeSm css-1j0ix75-JoyIconButton-root"
-                  type="button"
-                >
-                  <img
-                    alt="Info"
-                    data-nimg="1"
-                    decoding="async"
-                    height="16"
-                    src="/resources/icons/info.svg"
-                    style="color: transparent;"
-                    width="16"
-                  />
-                </button>
-              </a>
-            </div>
-          </div>
-          <div
-            class="css-wnmwa"
-          >
-            <div
-              class="css-1bie8f"
-            >
-              <div
-                class="css-1iyoj2o"
-              >
-                <span
-                  class="css-1nsfrpq"
-                >
-                  Hoist Powertools (Personal Project)
-                </span>
-                <span
-                  class="css-qm3h0l"
-                >
-                  Utilities and Resources for Powerlifters (iOS, Firebase)
-                </span>
-              </div>
-              <a
-                href="/project/hoist-powertools"
-                target=""
-              >
-                <button
-                  class="MuiIconButton-root MuiIconButton-variantPlain MuiIconButton-colorNeutral MuiIconButton-sizeSm css-1j0ix75-JoyIconButton-root"
-                  type="button"
-                >
-                  <img
-                    alt="Info"
-                    data-nimg="1"
-                    decoding="async"
-                    height="16"
-                    src="/resources/icons/info.svg"
-                    style="color: transparent;"
-                    width="16"
-                  />
-                </button>
-              </a>
-            </div>
-          </div>
-        </section>
-      </div>
-      <footer
-        class="css-1xrjhk4"
-      >
-        <img
-          alt="React"
-          data-nimg="1"
-          decoding="async"
-          height="32"
-          src="/resources/react.svg"
-          style="color: transparent;"
-          width="32"
-        />
-        <img
-          alt="Python"
-          data-nimg="1"
-          decoding="async"
-          height="32"
-          src="/resources/python.svg"
-          style="color: transparent;"
-          width="32"
-        />
-        <img
-          alt="JavaScript"
-          data-nimg="1"
-          decoding="async"
-          height="32"
-          src="/resources/js.svg"
-          style="color: transparent;"
-          width="32"
-        />
-        <img
-          alt="AWS"
-          data-nimg="1"
-          decoding="async"
-          height="32"
-          src="/resources/aws.svg"
-          style="color: transparent;"
-          width="32"
-        />
-      </footer>
+      AD
     </div>
+    <div
+      class="css-11lyg64"
+    >
+      <a
+        href="mailto:ahmeddregia@gmail.com"
+        target="_blank"
+      >
+        <button
+          class="MuiIconButton-root MuiIconButton-variantPlain MuiIconButton-colorNeutral MuiIconButton-sizeSm css-1j0ix75-JoyIconButton-root"
+          name="Email"
+          type="button"
+        >
+          <img
+            alt="Email"
+            class="css-13pfr52"
+            data-nimg="1"
+            decoding="async"
+            height="20"
+            src="/resources/icons/email.svg"
+            style="color: transparent;"
+            width="20"
+          />
+        </button>
+      </a>
+      <a
+        href="https://drive.google.com/file/d/1a9PjCvvGnorZa2WfJG5clwqjXP-jOfVK/view?usp=sharing"
+        target="_blank"
+      >
+        <button
+          class="MuiIconButton-root MuiIconButton-variantPlain MuiIconButton-colorNeutral MuiIconButton-sizeSm css-1j0ix75-JoyIconButton-root"
+          name="Resumé"
+          type="button"
+        >
+          <img
+            alt="Resumé"
+            class="css-13pfr52"
+            data-nimg="1"
+            decoding="async"
+            height="20"
+            src="/resources/icons/document.svg"
+            style="color: transparent;"
+            width="20"
+          />
+        </button>
+      </a>
+      <a
+        href="tel:+1-949-648-6227"
+        target="_blank"
+      >
+        <button
+          class="MuiIconButton-root MuiIconButton-variantPlain MuiIconButton-colorNeutral MuiIconButton-sizeSm css-1j0ix75-JoyIconButton-root"
+          name="Phone"
+          type="button"
+        >
+          <img
+            alt="Phone"
+            class="css-13pfr52"
+            data-nimg="1"
+            decoding="async"
+            height="20"
+            src="/resources/icons/phone.svg"
+            style="color: transparent;"
+            width="20"
+          />
+        </button>
+      </a>
+      <a
+        href="https://www.linkedin.com/in/ahmed-dregia"
+        target="_blank"
+      >
+        <button
+          class="MuiIconButton-root MuiIconButton-variantPlain MuiIconButton-colorNeutral MuiIconButton-sizeSm css-1j0ix75-JoyIconButton-root"
+          name="LinkedIn"
+          type="button"
+        >
+          <img
+            alt="LinkedIn"
+            class="css-13pfr52"
+            data-nimg="1"
+            decoding="async"
+            height="20"
+            src="/resources/icons/linkedin.svg"
+            style="color: transparent;"
+            width="20"
+          />
+        </button>
+      </a>
+      <a
+        href="https://www.hoist.news/"
+        target="_blank"
+      >
+        <button
+          class="MuiIconButton-root MuiIconButton-variantPlain MuiIconButton-colorNeutral MuiIconButton-sizeSm css-1j0ix75-JoyIconButton-root"
+          name="Hoist"
+          type="button"
+        >
+          <img
+            alt="Hoist"
+            class="css-13pfr52"
+            data-nimg="1"
+            decoding="async"
+            height="20"
+            src="/resources/icons/hoist.svg"
+            style="color: transparent;"
+            width="20"
+          />
+        </button>
+      </a>
+      <a
+        href="https://www.instagram.com/adregia"
+        target="_blank"
+      >
+        <button
+          class="MuiIconButton-root MuiIconButton-variantPlain MuiIconButton-colorNeutral MuiIconButton-sizeSm css-1j0ix75-JoyIconButton-root"
+          name="Instagram"
+          type="button"
+        >
+          <img
+            alt="Instagram"
+            class="css-13pfr52"
+            data-nimg="1"
+            decoding="async"
+            height="20"
+            src="/resources/icons/instagram.svg"
+            style="color: transparent;"
+            width="20"
+          />
+        </button>
+      </a>
+      <a
+        href="https://www.github.com/adregia"
+        target="_blank"
+      >
+        <button
+          class="MuiIconButton-root MuiIconButton-variantPlain MuiIconButton-colorNeutral MuiIconButton-sizeSm css-1j0ix75-JoyIconButton-root"
+          name="GitHub"
+          type="button"
+        >
+          <img
+            alt="GitHub"
+            class="css-13pfr52"
+            data-nimg="1"
+            decoding="async"
+            height="20"
+            src="/resources/icons/github.svg"
+            style="color: transparent;"
+            width="20"
+          />
+        </button>
+      </a>
+    </div>
+    <div
+      class="css-1wuzcka"
+    />
   </main>
 </div>
 `;
