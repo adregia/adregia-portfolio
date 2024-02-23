@@ -12,7 +12,7 @@ const STATIC_LINKS = [
   },
   {
     name: 'Resumé',
-    url: 'https://drive.google.com/file/d/1a9PjCvvGnorZa2WfJG5clwqjXP-jOfVK/view?usp=sharing',
+    url: 'https://drive.google.com/file/d/1VT0niA4MLEKhv_z_r5kZkVZVNg1U9FsU/view?usp=sharing',
     icon: '/resources/icons/document.svg',
   },
   {
